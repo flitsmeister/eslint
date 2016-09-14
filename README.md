@@ -1,1 +1,1 @@
-# fm-eslint
+# Flitsmeister eslint settings
