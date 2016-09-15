@@ -7,6 +7,7 @@
   "license": "ISC",
   "dependencies": {
     "eslint": "^3.4.0",
+    "eslint-config-hapi": "^10.0.0",
     "eslint-plugin-hapi": "^4.0.0"
   }
 }
