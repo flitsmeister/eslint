@@ -388,6 +388,6 @@
     ],
     // enforce the spacing around the * in generator functions (off by default)
 
-    "arrow-parens": [1, "as-needed"]
+    "arrow-parens": [0, "as-needed"]
   }
 }
