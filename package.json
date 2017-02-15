@@ -1,12 +1,12 @@
 {
   "name": "fm-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^3.14.1",
+    "eslint": "^3.15.0",
     "eslint-config-hapi": "^10.0.0",
     "eslint-plugin-hapi": "^4.0.0"
   }
