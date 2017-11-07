@@ -1,6 +1,6 @@
 {
   "name": "fm-eslint",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "",
   "scripts": {},
   "author": "",
@@ -8,6 +8,6 @@
   "dependencies": {
     "eslint": "~4.10.0",
     "eslint-config-hapi": "~11.1.0",
-    "eslint-plugin-hapi": "^4.1.0"
+    "eslint-plugin-hapi": "~4.1.0"
   }
 }
