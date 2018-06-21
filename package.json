@@ -8,8 +8,6 @@
   "dependencies": {
     "eslint": "~4.10.0",
     "eslint-config-hapi": "~11.1.0",
-    "hapi-capitalize-modules": "^1.1.6",
-    "hapi-scope-start": "^2.1.1",
-    "no-arrowception": "^1.0.0"
+    "eslint-plugin-hapi": "^4.1.0"
   }
 }
