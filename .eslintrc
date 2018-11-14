@@ -392,6 +392,8 @@
     ],
     // enforce the spacing around the * in generator functions (off by default)
 
-    "arrow-parens": [0, "as-needed"]
+    "arrow-parens": [0, "as-needed"],
+
+    "padding-line-between-statements": 0
   }
 }
