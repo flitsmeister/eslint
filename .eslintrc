@@ -322,7 +322,7 @@
     // allow just one var statement per function (off by default)
     "operator-assignment": [
       1,
-      "never"
+      "always"
     ],
     // require quotes around object literal property names (off by default)
     "quotes": [
