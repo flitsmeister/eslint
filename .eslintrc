@@ -391,6 +391,10 @@
             0,
             "as-needed"
         ],
-        "padding-line-between-statements": 0
+        "padding-line-between-statements": 0,
+        "no-confusing-arrow": [
+            "error",
+            { "allowParens": true }
+        ]
     }
 }
