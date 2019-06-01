@@ -1,6 +1,6 @@
 {
   "name": "@flitsmeister/eslint",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint Style for Flitsmeister projects.",
   "scripts": {},
   "author": "Flitsmeister",
