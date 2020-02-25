@@ -6,9 +6,9 @@
   "author": "Flitsmeister",
   "license": "ISC",
   "dependencies": {
-    "eslint": "~5.16.0",
-    "@hapi/eslint-config-hapi": "~12.1.0",
-    "@hapi/eslint-plugin-hapi": "^4.3.3"
+    "eslint": "~6.8.0",
+    "@hapi/eslint-config-hapi": "~13.0.2",
+    "@hapi/eslint-plugin-hapi": "^4.3.5"
   },
   "main": "index.js",
   "devDependencies": {},
