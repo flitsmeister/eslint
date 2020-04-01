@@ -1,11 +1,12 @@
 {
     "extends": "@hapi/eslint-config-hapi",
+    "parser": "babel-eslint",
     "env": {
         "node": true,
         "browser": true
     },
     "parserOptions": {
-        "ecmaVersion": 9,
+        "ecmaVersion": 10,
         "sourceType": "script",
         "ecmaFeatures": {
             "arrowFunctions": true,
