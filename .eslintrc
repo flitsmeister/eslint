@@ -1,5 +1,5 @@
 {
-    "extends": "@hapi/eslint-config-hapi",
+    "extends": "plugin:@hapi/module",
     "parser": "babel-eslint",
     "env": {
         "node": true,
