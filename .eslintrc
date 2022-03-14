@@ -1,6 +1,6 @@
 {
     "extends": "plugin:@hapi/module",
-    "parser": "babel-eslint",
+    "parser": "@babel/eslint-parser",
     "env": {
         "node": true,
         "browser": true
@@ -34,8 +34,8 @@
         }
     },
     "rules": {
-        "@hapi/hapi/scope-start": 0,
-        "@hapi/hapi/no-var": 2,
+        "@hapi/scope-start": 0,
+        "@hapi/no-var": 2,
         "curly": 0,
         "object-curly-spacing": 0,
         "prefer-template": 1,
