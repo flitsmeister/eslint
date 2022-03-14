@@ -1,21 +1,12 @@
-box: node:11
+box:
+  id: flitsmeister/test-suite
+  username: flitsmeister
+  password: $DOCKER_PASS
 deploy:
   steps:
-    - add-ssh-key:
-      keyname: FM_wercker
-      host: github.com
-    - add-to-known_hosts:
-      hostname: github.com
-      fingerprint: SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8
-    - create-file:
-      name: create npm token configuration.
-      filename: $WERCKER_ROOT/.npmrc
-      overwrite: true
-      content: |-
-          //registry.npmjs.org/:_authToken=$NPM_TOKEN
     - script:
       code: |
-        sed "s,0.0.0,$WERCKER_GIT_TAG," -i $WERCKER_SOURCE_DIR/package.json
+        sed "s,\"version\": \"0.0.0\",\"version\": \"$WERCKER_GIT_TAG\"," -i $WERCKER_SOURCE_DIR/package.json
         npm publish
   after-steps:
     - slack-notifier:
