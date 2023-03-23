@@ -39,6 +39,7 @@
     "rules": {
         "mocha/no-mocha-arrows": 0,
         "mocha/no-setup-in-describe": 0,
+        "mocha/no-sibling-hooks": 1,
         "@hapi/scope-start": 0,
         "@hapi/no-var": 2,
         "curly": 0,
