@@ -43,7 +43,7 @@
         "@hapi/scope-start": 0,
         "@hapi/no-var": 2,
         "curly": 0,
-        "object-curly-spacing": 0,
+        "object-curly-spacing": ["warn", "always"],
         "prefer-template": 1,
         "brace-style": 0,
         //
@@ -402,6 +402,10 @@
         "no-confusing-arrow": [
             "error",
             { "allowParens": true }
+        ],
+        "quote-props": [
+            "warn",
+            "as-needed"
         ]
     }
 }
