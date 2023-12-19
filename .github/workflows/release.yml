@@ -5,13 +5,18 @@ on:
     types: [published]
 
 jobs:
-  setup:
-    uses: flitsmeister/backend-github-actions/.github/workflows/setup.yml@master
+  setup18:
+    uses: flitsmeister/backend-github-actions/.github/workflows/setup_njs18.yml@master
+    secrets:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  setup20:
+    uses: flitsmeister/backend-github-actions/.github/workflows/setup_njs20.yml@master
     secrets:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   deploy:
     uses: flitsmeister/backend-github-actions/.github/workflows/deploy.yml@master
-    needs: setup
+    needs: [setup18, setup20]
     secrets:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
