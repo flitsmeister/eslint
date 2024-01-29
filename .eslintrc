@@ -146,7 +146,7 @@
         // disallow use of eval()-like methods
         "no-iterator": 2,
         // disallow usage of __iterator__ property
-        "no-labels": 2,
+        "no-labels": 0,
         // disallow use of labeled statements
         "no-lone-blocks": 2,
         // disallow unnecessary nested blocks
